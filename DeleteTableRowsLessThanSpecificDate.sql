@@ -12,6 +12,16 @@ BEGIN
 @SchemaName 	- Schema where the table we want to delete
 @TableName 		- Table name we want to delete
 @ColumnName 	- Column name we use to compare the date to delete
+
+To automate the delete process, create SQL Agent Job to scheduled once a week running:
+
+EXEC dbo.DeleteTableRowsLessThanSpecificDate
+	@RetentionDays = 100,
+    @RowsToDelete = 1000000,
+    @SchemaName = 'dbo',
+	@TableName = 'DevErrorLog',
+	@ColumnName = 'timestamp'
+GO
 -------------------------------------------------------------------- */
     SET NOCOUNT ON
     SET XACT_ABORT ON
