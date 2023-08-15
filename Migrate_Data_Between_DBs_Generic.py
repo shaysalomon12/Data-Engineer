@@ -58,7 +58,7 @@ for df in pd.read_sql(migrate_query, con=engine1, chunksize=chunksize):
     # print(df)
     print(datetime.now().strftime("%H:%M:%S") + ' Records transfered: ' + str(n*chunksize))
     n = n+1
-    if (n*chunksize)>2000:
+    if (n*chunksize)>5000:
         break
 
 # Close connections
