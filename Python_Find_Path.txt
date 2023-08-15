@@ -1,0 +1,29 @@
+Python Pathes
+=============
+C:\Users\ShaySalomon>python
+Python 3.10.9 (tags/v3.10.9:1dd9be6, Dec  6 2022, 20:01:21) [MSC v.1934 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import os
+>>> import sys
+>>> os.path.dirname(sys.executable)
+'C:\\Users\\ShaySalomon\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0'
+>>>
+'C:\\Users\\ShaySalomon\\AppData\\Local\\Programs\\Python\\Python311'
+
+
+c:\Users\ShaySalomon\AppData\Local\Programs\Python\Python311
+
+Old Python install:
+C:\Users\ShaySalomon\pySparkDemo\Scripts
+
+
+"c:\Users\ShaySalomon\AppData\Local\Programs\Python\Python311\python.exe" -m pip install --user "jupyter>=1.0.0"
+
+-- Installing missing module from terminal:
+PS C:\jupyter_notebook> python3 -m pip install pyodbc
+
+Or
+pip3 install pyodbc  
+
+Start VS Code:
+C:\jupyter_Notebook>code .
