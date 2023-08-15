@@ -8,7 +8,7 @@ from sqlalchemy import event, DDL, text
 import time
 from datetime import datetime           # To wtite timestamp to terminal
 
-###################### added this on 10:16
+######################
 table_name = 'test_log'
 chunksize = 1000
 # Size the chunksize parameter so you will not get SQL Server limit for 2100 parameters:
