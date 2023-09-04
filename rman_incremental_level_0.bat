@@ -5,7 +5,9 @@ rem usage: c:\> <script_name> <oracle_sid> <oracle_home>
 rem
 rem Backup file names:
 rem %d - Database name
-rem %T - 8-character name constituted by compressed representations of the backup set or image copy number and the time the backup set or image copy was created.
+rem %T - 8-character name constituted by compressed representations of the backup 
+rem      set or image copy number and the time the backup set or image copy was 
+rem      created.
 rem %t - Backup set time stamp,
 rem %U - A system-generated unique filename (default).
 rem #############################################################################
