@@ -1,3 +1,20 @@
 {
-    "notebook.output.textLineLimit": 300
+    "notebook.output.textLineLimit": 300,
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "10.11.31.220",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "moodledevmysql.mysql.database.azure.com",
+            "group": "DEV",
+            "database": "DBA",
+            "username": "cetadmin@moodledevmysql",
+            "askForPassword": true
+        }
+    ]
 }
